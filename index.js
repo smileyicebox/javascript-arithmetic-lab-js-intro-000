@@ -43,12 +43,8 @@ function decrement(n) {
 }
 
 function makeInt(n) {
-  result = parseInt(n)
-  if (isNaN(result)) {
-    return 0
-  }
-  else {
-    return result
+  result = parseInt(n, 10)
+  return result
   }
 }
 
