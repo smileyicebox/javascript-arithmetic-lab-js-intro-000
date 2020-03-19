@@ -43,11 +43,11 @@ function decrement(n) {
 }
 
 function makeInt(n) {
-  result = parseInt('n', 10)
+  result = parseInt(n, 10)
   return result
 }
 
 function preserveDecimal(n) {
-  result = parseFloat('n', 10)
+  result = parseFloat(n)
   return rresult  
 }
