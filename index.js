@@ -44,8 +44,10 @@ function decrement(n) {
 
 function makeInt(n) {
   result = parseInt('n', 10)
+  return result
 }
 
 function preserveDecimal(n) {
-  return "test"  
+  result = parseFloat('n', 10)
+  return rresult  
 }
