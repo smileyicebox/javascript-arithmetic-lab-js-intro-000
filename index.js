@@ -26,7 +26,7 @@ function divide() {
 }
 
 function add(a, b) {
-  console.log(add())
+  console.log(add(a,b))
 }
 
 function subtract(a, b) {
